@@ -1,0 +1,137 @@
+body {
+	background-color: silver;
+	margin: 0;
+	padding: 0;
+	ofverflow-y: hidden;
+}
+
+.gallery-navbar {
+	margin-top: 11px;
+	display: none;	
+	position: absolute;
+	right: 30px;	
+}
+
+.landing {
+	padding: 70px 0 20px 0;
+	background-color: black;
+}
+
+.landing .carousel {
+	height: 400px;	
+}
+
+.content {
+	padding: 10px 0 50px 0;
+}
+
+.gallery {
+	display: none;
+}
+
+.row {
+	clear: both;
+}
+
+.picture {
+	float: left;
+}
+
+.picture {
+	text-align: center;
+	font-size: 0;
+}
+
+.picture:hover {
+	cursor: pointer;
+}
+
+.picture:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  mardgin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.picture .hover {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.picture .hover a i {
+  font-size: 2em;
+}
+
+.carousel .glyphicon {
+	font-size: 2em;
+	position: absolute;
+	top: 40%;
+}
+
+.carousel .glyphicon-circle-arrow-left {
+	left: 30%;
+}
+
+.carousel .glyphicon-circle-arrow-right {
+	right: 30%;
+}
+
+.cont {
+	display: none;
+}
+
+.carousel .item img {
+	margin: auto;
+}
+
+#about img {
+	margin-top: 30px;
+}
+
+#about button {
+	margin-top: 10px;
+}
+#contact {
+	margin-top: 40px;
+}
+
+section {
+	margin-top: 10px;
+}
+
+#contact h2.address {
+	margin: 20px 0 15px 0;
+}
+
+#contact iframe {
+	margin-top: 24px;
+	height: 480px;
+	border: 7px solid grey;
+}
+
+#contact address {
+	margin-top: 5px;
+	line-height: 1.5em;
+}
+
+.center {
+   margin: 0 auto !important;
+   float: none !important;
+}
+
+div.gallery {
+	background-color: #000000;
+}
+
+#carouselDetail .carousel-inner .item {
+	margin-top: 20px;
+}
+        
+#detail {
+	z-index: 1000;
+	position: absolute;
+	display: none;
+	ofpacity: 0.9;
+	background-color: black;
+}
